@@ -1,0 +1,27 @@
+body{ 
+    padding: 25px;
+}
+
+*{
+    box-sizing:border-box;
+}
+.container{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    /*flex-direction: column;*/
+    /*justify-content: center*/
+    /*align-items: center;*/
+    height: 1000px;
+    flex-wrap: wrap-reverse;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    border: 2px solid orangered;
+    padding: 20px;
+    background-color: orange;
+    font-size: 25px;
+}
